@@ -1,0 +1,13 @@
+sudeo: false
+language: node_js
+node_js:
+  -"stable"
+before_script:
+  - npm install 
+script:
+  - npm test
+cache: npm
+before_install:
+  - npm i -g 
+install:
+  - npm cli
